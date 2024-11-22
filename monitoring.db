@@ -1,0 +1,14 @@
+CREATE DATABASE monitoring_db;
+
+USE monitoring_db;
+
+CREATE TABLE sensors (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    temperature FLOAT NOT NULL,
+    humidity FLOAT NOT NULL,
+    timestamp DATETIME DEFAULT CURRENT_TIMESTAMP
+);
+
+-- Tambahkan data awal
+INSERT INTO sensors (temperature, humidity) 
+VALUES (25.5, 60.0), (26.0, 58.5), (27.5, 62.0), (24.0, 55.0);
