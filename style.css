@@ -369,3 +369,56 @@ body::before {
     font-size: 1.2rem;
     text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
 }
+
+/* Add these styles for the graphs section */
+.graphs-container {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+.graph-panel {
+    background: rgba(255, 255, 255, 0.3);
+    border-radius: 8px;
+    padding: 15px;
+    margin-bottom: 30px;
+    box-shadow: 0 2px 4px rgba(255, 255, 255, 0.1);
+    backdrop-filter: none;
+}
+
+.graph-panel iframe {
+    width: 100%;
+    max-width: 450px;
+    margin: 0 auto;
+    display: block;
+    background: transparent;
+}
+
+.graph-panel h4 {
+    color: white;
+    text-align: center;
+    margin-bottom: 15px;
+    font-size: 1.2rem;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
+}
+
+.download-panel {
+    background: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(10px);
+    border: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+.download-panel .btn {
+    margin: 0 5px;
+    min-width: 150px;
+}
+
+.download-panel .form-select {
+    max-width: 300px;
+    margin: 0 auto;
+}
+
+.download-panel .form-label {
+    color: white;
+}
+
